@@ -48,5 +48,3 @@ if uploaded_file is not None:
     st.subheader("📊 Class Probabilities")
     for idx, prob in enumerate(predictions[0]):
         st.write(f"{class_names[idx]}: {prob:.4f}")
-# Aesthetics
-st.button
