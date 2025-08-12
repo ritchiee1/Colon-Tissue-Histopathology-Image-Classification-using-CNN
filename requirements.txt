@@ -1,11 +1,11 @@
 streamlit
-tensorflow==2.15.1
-numpy
+tensorflow==2.20.0rc0numpy
 pandas
 matplotlib
 scikit-learn
 opencv-python-headless
 pyzmq==27.0.1
+
 
 
 
