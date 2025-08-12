@@ -75,9 +75,15 @@ As a **Medical Laboratory Scientist (Histopathologist)**, I designed this projec
 
 ## 🖼️ Visuals
 **Confusion Matrix**  
-(Perfect diagonal – no misclassifications)
+![confusion matrix](plots/confusion_matrix.png)         
+(Almost Perfect diagonal – no misclassifications)
+
+
+
+
 
 **Accuracy & Loss Curves**
+![Accuracy & Loss Curves](plots/training_history_of_accuracy_and_loss_curve_over_epochs.png)
 - **Training Accuracy:** ~98%  
 - **Validation Accuracy:** fluctuates between 50–80% (due to small dataset size)  
 - **Training Loss:** steadily decreases  
@@ -107,4 +113,5 @@ cd Histopathology-Image-Classification
 python -m venv venv
 source venv/bin/activate  # or venv\Scripts\activate on Windows
 pip install -r requirements.txt
+
 python train.py
